@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Black Jack</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="animate.css">
+    <script src="jquery.js"></script>
+    <script src="blackjack.js"></script>
+  </head>
+  <body>
+    <div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<div class="content">
+</div>
+    <h2 style="font-size:xx-large;">Blackjack.</h2>
+    <div id="table">
+      <div id="messages"></div>
+      <label class="label" style="font-size:xx-large;">Dealer: </label>
+      <label id="dealer-points" class="points"style="font-size:xx-large;"></label>
+      <div id="dealer-hand" class="hand">
+      </div>
+      <label class="label" style="font-size:xx-large;">Player: </label>
+      <label id="player-points" class="points"style="font-size:xx-large;"></label>
+      <br>
+      <label class="money" style="font-size:xx-large;">Bank: C</label>
+      <label id ='player-money'class="money" style="font-size:xx-large;">500</label>
+      <div id="player-hand" class="hand">
+      </div>
+      <div class="buttons">
+        <button id="deal-button">Deal</button>
+        <button id="hit-button">Hit</button>
+        <button id="stand-button">Stand</button>
+        <button id='bet-button'>Bet C100</button>
+      </div>
+    </div>
+  </body>
+</html>
